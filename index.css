@@ -1,0 +1,79 @@
+:root {
+    height: 100%;
+    background-image: linear-gradient(90deg, red 0%, blue 100%, #008080 0%);
+    margin: auto;
+    border: 160px;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: absolute;
+	font-weight: 400; 
+    font-style: normal;
+}
+
+#background {
+    background-color: white;
+    padding: 2px;
+    margin: 2px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}           
+
+body {
+    width: 75%;
+    margin: auto;
+    font-size: 1em;
+}
+
+body h2 {
+	text-align: center;
+	font-size: 40px;
+	font-stretch: ultra-expanded;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+body header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/* nav menu */
+#nav_menu {
+	margin: 0;
+	padding: 0;
+}
+
+#nav_menu ul {
+	list-style-type: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em;
+	position: relative;
+	color: white;
+}
+
+#nav_menu ul li {
+	width: 200px;
+	margin-bottom: 0.5em;
+	border: 2px solid white;
+}
+#nav_menu ul li {
+	display: block;
+	padding: 0.5em 0 0.5em .5em;
+	text-decoration: none;
+	font-weight: bold;
+	color: white; 
+	background-color: red;
+}
+
+#nav_menu a:link {
+	color: white;
+}
+
+#nav_menu a:hover {
+	color: yellow;
+	text-decoration: none;
+}
